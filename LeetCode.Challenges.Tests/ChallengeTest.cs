@@ -1,5 +1,4 @@
-﻿using System;
-using Leetcode;
+﻿using Leetcode;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1

@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntReverser.cs" />
+    <Compile Include="Easy\IntReverser.cs" />
+    <Compile Include="Medium\Atoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RomanaNumbers.cs" />
-    <Compile Include="TwoSums.cs" />
+    <Compile Include="Medium\RomanaNumbers.cs" />
+    <Compile Include="Easy\TwoSums.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hard\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
